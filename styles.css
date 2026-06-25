@@ -3,8 +3,8 @@
   --sage-dark: #6b7d5b;
   --warm-brown: #7a5c45;
   --cream: #f6f3ee;
+  --beige: #ede3d6;
   --text: #2f2f2f;
-  --cream: #f6f3ee;
 }
 body {
   font-family: Arial, sans-serif;
@@ -27,14 +27,14 @@ header {
 }
 
 nav a {
-  color: cream;
+  color: var(--cream);
   margin-right: 15px;
   text-decoration: none;
 }
 
 .hero {
   background: var(--sage);
-  color: cream;
+  color: var(--cream);
   padding: 70px 0;
   text-align: center;
 }
@@ -46,11 +46,11 @@ nav a {
 }
 
 .section.alt {
-  background: var(--cream);
+  background: var(--beige);
 }
 
 .card {
-  background: cream;
+  background: var(--cream);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
