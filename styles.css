@@ -72,3 +72,7 @@ footer {
   font-size: 14px;
   color: var(--text);
 }
+
+div {
+  background: var(--cream);
+}
