@@ -79,3 +79,7 @@ footer {
   gap: 20px;
   background: var(--cream);
 }
+
+.card {
+  background: red !important;
+}
