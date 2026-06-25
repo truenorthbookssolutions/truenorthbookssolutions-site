@@ -61,7 +61,7 @@ nav a {
   margin-top: 20px;
   padding: 10px 20px;
   background: var(--warm-brown);
-  color: white;
+  color: var(--cream);
   text-decoration: none;
   border-radius: 6px;
 }
