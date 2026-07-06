@@ -20,6 +20,24 @@ header {
   padding: 20px 0;
 }
 
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo {
+  height: 55px;
+  width: auto;
+  display: block;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+}
+
 .container {
   width: 90%;
   max-width: 1000px;
