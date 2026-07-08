@@ -10,7 +10,7 @@ body {
   font-family: 'Lora', serif;
   margin: 0;
   padding: 0;
-  background: var(--cream);
+  background: var(--beige);
   color: var(--text);
 }
 
@@ -44,11 +44,6 @@ header {
   display: block;
 }
 
-nav a {
-  margin-left: 20px;
-  text-decoration: none;
-}
-
 .container {
   width: 90%;
   max-width: 1000px;
@@ -57,7 +52,7 @@ nav a {
 
 nav a {
   color: var(--cream);
-  margin-right: 15px;
+  margin-right: 20px;
   text-decoration: none;
 }
 
@@ -69,7 +64,7 @@ nav a {
 }
 
 .section {
-  background: var(--cream);
+  background: var(--beige);
   padding: 40px 0;
   margin-top: 20px;
 }
@@ -79,7 +74,7 @@ nav a {
 }
 
 .card {
-  background: var(--beige);
+  background: var(--cream);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
@@ -109,6 +104,3 @@ footer {
   background: var(--cream);
 }
 
-.card {
-  background: beige !important;
-}
