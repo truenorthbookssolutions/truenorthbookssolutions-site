@@ -75,7 +75,7 @@ nav a {
 }
 
 .card {
-  background: var(--cream);
+  background: var(--pearl);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
@@ -102,6 +102,6 @@ footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  background: var(--pearl);
+  background: var(--beige);
 }
 
