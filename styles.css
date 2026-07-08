@@ -7,11 +7,22 @@
   --text: #2f2f2f;
 }
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Lora', serif;
   margin: 0;
   padding: 0;
   background: var(--cream);
   color: var(--text);
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+}
+
+h2,
+h3 {
+  font-family: 'Lora', serif;
+  font-weight: 600;
 }
 
 header {
