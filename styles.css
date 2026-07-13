@@ -33,10 +33,29 @@ header {
 }
 
 .site-header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   padding: 20px 40px;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: center;   /* Centers logo within the left half */
+  align-items: center;
+}
+
+.logo img {
+  width: 175px;
+  height: auto;
+  display: block;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  align-items: center;
 }
 
 .logo {
