@@ -34,7 +34,7 @@ header {
 
 .site-header {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 30% 70%;
   align-items: center;
   padding: 20px 40px;
 }
