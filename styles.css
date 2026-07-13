@@ -29,14 +29,15 @@ h3 {
 header {
  background: var(--sage-dark);
   color: var(--cream);
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
 .site-header {
   display: grid;
   grid-template-columns: 30% 70%;
   align-items: center;
-  padding: 20px 40px;
+  min-height: 140px;
+  padding: 10px 40px;
 }
 
 .header-logo {
@@ -46,7 +47,7 @@ header {
 }
 
 .logo img {
-  width: 175px;
+  width: 160px;
   height: auto;
   display: block;
 }
