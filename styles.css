@@ -47,11 +47,11 @@ header {
 }
 
 .logo img {
-  width: 260px;
+  width: 300px;
   height: auto;
   display: block;
-  margin-top: -8px;
-  margin-bottom: -8px;
+  margin-top: -12px;
+  margin-bottom: -12px;
 }
 
 nav {
