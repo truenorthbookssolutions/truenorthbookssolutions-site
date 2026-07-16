@@ -74,9 +74,10 @@ nav {
 
 nav a {
   color: var(--cream);
-  margin-right: 15px;
+  margin-right: 20px;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
+  font-weight: 500;
 }
 
 .hero {
